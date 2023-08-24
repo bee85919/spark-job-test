@@ -1,0 +1,37 @@
+import java.sql.Date
+import java.sql.Timestamp
+
+case class Airline(
+                    year: Int,
+                    month: Int,
+                    dayofmonth: Int,
+                    dayofweek: Int,
+                    deptime: Int,
+                    crsdeptime: Int,
+                    arrtime: Int,
+                    crsarrtime: Int,
+                    uniquecarrier: String,
+                    flightnum: Int,
+                    tailnum: String,
+                    actualelapsedtime: Int,
+                    crselapsedtime: Int,
+                    airtime: Int,
+                    arrdelay: Int,
+                    depdelay: Int,
+                    origin: String,
+                    dest: String,
+                    distance: Int,
+                    taxiin: Int,
+                    taxiout: Int,
+                    cancelled: Int,
+                    cancellationcode: String,
+                    diverted: Int,
+                    carrierdelay: Int,
+                    weatherdelay: Int,
+                    nasdelay: Int,
+                    securitydelay: Int,
+                    lateaircraftdelay: String,
+                    date: Date,
+                    dep_delayed: Boolean,
+                    arr_delayed: Boolean
+                  )
